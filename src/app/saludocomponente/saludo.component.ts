@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'saludo-component',
-  template: '<h1>Hola! Soy el componente Saludo</h1>'
+  templateUrl: './saludo.component.html',
+  styleUrls: ['./saludo.component.css']
 })
 export class Saludo {
 
